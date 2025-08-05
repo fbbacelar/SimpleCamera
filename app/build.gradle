@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+    namespace 'com.example.simplecamera' // Adicionado para corrigir o erro
     compileSdk 34
 
     defaultConfig {
