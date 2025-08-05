@@ -2,9 +2,6 @@ workflows:
   android-workflow:
     name: Android Debug Build
     max_build_duration: 60
-    environment:
-      android:
-        build_type: debug
     scripts:
       - name: Build Android debug APK
         script: |
